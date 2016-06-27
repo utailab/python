@@ -1,8 +1,7 @@
 var = 3
-var # do nothing, but in shell can print var
 print (var)
 var = ':D' # because python is dynamically-typed language and java is not
-
+#python does not have declaration for variables because python is a dynamically-typed language and not statically-typed one.
 tup = (1.2, 3, False)
 
 print (tup[2])
