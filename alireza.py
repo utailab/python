@@ -26,3 +26,18 @@ def exercise_0():
 
     print (di)
 
+def my_range(start, end):
+    lst = list()
+    if start < 0 or end < 0:
+        return lst
+    while start <= end:
+        print start,
+        lst += [start]
+        start += 1
+    return lst
+
+print my_range(1, 10)
+
+print my_range(-1, 20)
+
+print my_range(11, 2)
