@@ -31,13 +31,13 @@ def my_range(start, end):
     if start < 0 or end < 0:
         return lst
     while start <= end:
-        print start,
+        print(start, end=' ')
         lst += [start]
         start += 1
     return lst
 
-print my_range(1, 10)
+print(my_range(1, 10))
 
-print my_range(-1, 20)
+print(my_range(-1, 20))
 
-print my_range(11, 2)
+print(my_range(11, 2))
