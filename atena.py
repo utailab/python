@@ -26,20 +26,14 @@ def function():
 
 
 def F(start, end):
-    list = []
-    start = float(start)
-    end = float(end)
+    myList = [];
     if(start > 0 and end > 0):
-        if(end >= start):
-            if(start - int(start) < 1):
-                start = int(start) + 1
-            else:
-                start = int(start)
-            end = int(end)
-            list = [i for i in range(start, end + 1)]
-    return list
+        while(start <= end):
+            myList += [start]
+            start += 1
+    return myList
 
 
-function()
-a = [input("Enter start: "), input("Enter end: ")]
-print(F(*a))
+a = int(input("Enter start: "))
+b = int(input("Enter end: "))
+print(F(a, b))
