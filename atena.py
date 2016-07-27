@@ -27,10 +27,9 @@ def function():
 
 def F(start, end):
     myList = [];
-    if(start > 0 and end > 0):
-        while(start <= end):
-            myList += [start]
-            start += 1
+    if start >= 0 and end >= 0:
+        for i in range(start, end + 1):
+            myList += [i]
     return myList
 
 
