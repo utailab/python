@@ -14,4 +14,13 @@
 # git commit -m "Put your commit message here"
 # git push origin myhello
 
+print('Hello from Mahyar :)')
+print('Hello from ghazal :)')
+print('Hello from Motahare :)')
+print('Hello from parisa! :)')
+print('Hello from Alireza ;)')
+print('Hello from Atena ;)')
+print("Hello from Fered! :-\"")
+print("Hello from Asma :-")
+print('hello from Maryam:)')
 print('Hello from Motahare :)')
